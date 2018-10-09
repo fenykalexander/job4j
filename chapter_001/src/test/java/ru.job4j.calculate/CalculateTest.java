@@ -15,16 +15,17 @@ public class CalculateTest {
 	/**
 	 *Test echo
 	 */
-    //public  void whenTakeNameThenTreeEchoPlusName() {
+	@Test
+    public  void whenTakeNameThenTreeEchoPlusName() {
 
-		//String input = "Fenyk Alexandar";
-		//String expect = "Echo, echo, echo : Fenyk Alexandar";
-		//Calculate calculate = new Calculate();
-		//String result = calculate.eсho(name);
-		//assertThat(result,is(expect));
+		String input = "Fenyk Alexandar";
+		String expect = "Echo, echo, echo : Fenyk Alexandar";
+		Calculate calculate = new Calculate();
+		String result = calculate.echo(input);
+		assertThat(result,is(expect));
 
 
 
 	}
 
-//}
+}
