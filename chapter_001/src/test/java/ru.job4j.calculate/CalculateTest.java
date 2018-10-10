@@ -4,28 +4,25 @@ import static org.junit.Assert.assertThat;
 import static org.hamcrest.core.Is.is;
 import org.junit.Test;
 
-/**
+ /**
  * Test
  * CalculateTest.
- * @autor Fenyk Alexander(aleksandar.fenyuk@yandex.ru)
+ *  @author Fenyk Alexander(aleksandar.fenyuk@yandex.ru)
  * @since 21/092018
- *
  */
 public class CalculateTest {
-	/**
-	 *Test echo
-	 */
-	@Test
-    public  void whenTakeNameThenTreeEchoPlusName() {
+/**
+ * Test.
+ */
+@Test
+public  void whenTakeNameThenTreeEchoPlusName() {
 
-		String input = "Fenyk Alexandar";
-		String expect = "Echo, echo, echo : Fenyk Alexandar";
-		Calculate calculate = new Calculate();
-		String result = calculate.echo(input);
-		assertThat(result,is(expect));
-
-
-
-	}
+String input = "Fenyk Alexandar";
+String expect = "Echo, echo, echo : Fenyk Alexandar";
+Calculate calculate = new Calculate();
+String result = calculate.echo(input);
+assertThat(result, is(expect));
+}
 
 }
+
