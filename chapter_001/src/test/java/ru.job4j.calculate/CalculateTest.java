@@ -25,4 +25,3 @@ assertThat(result, is(expect));
 }
 
 }
-
