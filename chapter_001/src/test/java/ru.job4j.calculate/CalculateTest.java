@@ -28,7 +28,7 @@ public class CalculateTest {
      public void whenAddOnePlusOneThenTwo() {
          Calculate calc = new Calculate();
          calc.add(1D, 1D);
-         double result = calc.result();
+         double result = calc.getResult();
          double expected = 2D;
          assertThat(result, is(expected));
      }
@@ -37,7 +37,7 @@ public class CalculateTest {
      public void whenDivOne2On1Then2() {
          Calculate calc = new Calculate();
          calc.add(1D, 1D);
-         double result = calc.getResultTwo();
+         double result = calc.getResult();
          double expected = 2D;
          assertThat(result, is(expected));
      }
@@ -46,7 +46,7 @@ public class CalculateTest {
      public void whenSubstractOneFromThen() {
          Calculate calc = new Calculate();
          calc.add(1D, 1D);
-         double result = calc.getResultTree();
+         double result = calc.getResult();
          double expected = 2D;
          assertThat(result, is(expected));
      }
@@ -55,7 +55,7 @@ public class CalculateTest {
      public void whenMultipleOneToSecond() {
          Calculate calc = new Calculate();
          calc.add(1D, 1D);
-         double result = calc.getResultFour();
+         double result = calc.getResult();
          double expected = 2D;
          assertThat(result, is(expected));
      }
